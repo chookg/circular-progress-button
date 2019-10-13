@@ -610,6 +610,10 @@ public class CircularProgressButton extends Button {
     public void setErrorText(String text) {
         mErrorText = text;
     }
+    
+    public void setCornerRadius(int radius) {
+        mCornerRadius = radius;
+    }
 
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
